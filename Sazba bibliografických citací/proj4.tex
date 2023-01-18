@@ -1,0 +1,57 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[left=2cm,text={17cm, 24cm},top=4cm]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+	    \textsc{\Huge{VYSOKÉ UČENÍ TECHNICKÉ V~BRNĚ} \\
+		\Large{Fakulta informačních technologií}\\}
+	    \vspace{\stretch{0.382}}
+	    \Large{Typografie a publikování - 4. projekt}\\
+    	\Huge{Bibliografické citace}\\
+	    \vspace{\stretch{0.618}}
+    \end{center}
+
+    {\LARGE 16. 4. 2018 \hfill Kateřina Cibulcová}
+\end{titlepage}
+\newpage
+\pagestyle{plain}
+
+
+
+\section{Typografie}
+Typografie je věda, která se zabývá písmem. \cite{Kuzu} Makrotypografie se zabývá uměleckou tvorbou písma. Mikrotypografie se zabývá umístěním písma na stránku, proporcemi titulků, textů a ilustrací, v~češtině se tradičně nazývá grafická úprava. \cite{Typo}
+
+Dějiny typografie začínají na přelomu středověku a novověku. Rozeznáváme dvě hlavní období dějin písma, každé z~nich mělo podíl na současném stupni vývoje lidské společnosti. Je to předhistorické období, kdy vznikali předchůdci písma, tedy kresby, piktogramy, ideogramy. Dále pak historické období, ve kterém nalezneme ručně psaná, kreslená nebo jinak utvářená písma. Právě v~historickém období vznikají první písmové soustavy vyvinuté nezávisle na sobě. \cite{Atlantic} 
+
+Novodobou typografii datujeme až od klíčového okamžiku v~dějinách písma a sazby písma - vynálezu knihtisku Johannesem Gutenbergem. \cite{Uhlirova}
+
+\section{\TeX}
+Typografická pravidla se vyvíjela po staletí a jejich hlavním cílem vždy bylo usnadnit čtenáři vnímání textu. \cite{Matysova}
+Jejich dodržování je velice důležité a měli bychom si na ně dát pozor zejména při psaní formálních dopisů, životopisů, kvalifikačních prací apod.
+
+Jedním z~nástrojů, který nám s~typograficky správným psaním dokumentů může pomoci je jazyk počítačové typografie \TeX. Název \TeX  má základ z~řeckého slova texnologia (umění, dovednost). Tento systém pro počítačovou sazbu vytvořil profesor Donald Ervin Knuth v~70. letech 20. století. \cite{Janecek} Ačkoli je vhodný pro sazbu dokumentů ze všech oborů, využívá se zejména v~oblasti matematiky, informatiky a fyziky. Jádro systému tvoří překladač jazyka \TeX u, jehož vstupem je textový soubor, pořízený libovolným editorem. \cite{Cerny} Rozšířená je jeho nadstavba \LaTeX. 
+
+\section{\LaTeX}
+\LaTeX je systém pro sazbu textů vysoké typografické kvality. Je dostupný pro všechny rozšířené operační systémy a vzhled dokumentu nezávisí na tom, pod kterým operačním systémem byl přeložen. 
+
+Dokument v~\LaTeX u se píše jako text, do kterého se ručně vpisují formátovací příkazy, podobně jako například v~HTML, následně je nutné dokument přeložit. To sice přináší nutnost pamatovat si příkazy nebo je vyhledávat, ale je tak důsledně možné při tvorbě dokumentu nezávisle na sobě pracovat na obsahu dokumentu a na jeho vzhledu. Zdrojový soubor se skládá z~preambule a textové části. \cite{TheLatexCompanion}
+
+Latex se dá sázet v~různých editorech jako například MiK\TeX, te\TeX, \TeX Live atd. \cite{Rybicka} Existují ale i online nástroje - například Overleaf nebo Share\LaTeX. Největší výhody \LaTeX u jsou jeho flexibilita a přenositelnost, za zmínku ale stojí také snadné sázení matematických symbolů (samozřejmě poté, co se člověk naučí \LaTeX používat) \cite{Sullivan} a možnost využívat jej zdarma. Mezi nevýhody může patřit naopak to, že je poměrně obtížné se s~\LaTeX em naučit pracovat. 
+
+
+\newpage
+
+\bibliographystyle{czplain}
+\bibliography{bibliografie}
+
+
+
+
+
+\end{document}
